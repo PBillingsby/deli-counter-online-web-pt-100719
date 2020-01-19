@@ -7,5 +7,6 @@ def line(arr)
     arr.each_with_index do |index, person|
       str << "#{index.to_i}. #{person}"
     end
+    str
   end
 end
