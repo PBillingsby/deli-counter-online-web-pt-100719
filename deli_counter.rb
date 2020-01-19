@@ -1,6 +1,6 @@
 katz_deli = []
 def line(arr)
-  if arr.count == 0
+  if arr.length == 0
     "The line is currently empty."
   else
     str = "The current line is "
