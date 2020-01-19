@@ -5,3 +5,7 @@ def line(arr)
   else
     str = "The current line is "
     arr.each_with_index do |person|
+      str << person
+    end
+  end
+end
